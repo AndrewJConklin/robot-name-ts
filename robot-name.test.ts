@@ -32,7 +32,7 @@ describe("Robot", () => {
   });
 
   afterEach(() => {
-    Robot.releaseNames();
+    robot.releaseNames();
   });
 
   it("has a name", () => {
